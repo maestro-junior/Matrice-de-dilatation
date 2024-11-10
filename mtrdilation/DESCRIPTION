@@ -1,0 +1,14 @@
+Package: mtrdilation
+Type: Package
+Title: Geographic Map Rescaling
+Version: 0.1.0
+Author: EUGENE TSAGUE
+Maintainer: <tgeugenej1@gmail.com>
+Description: This package provides tools for resizing geographic maps using dilation matrices. It allows users to enlarge or reduce geographical objects in 'sf' format and display the results using ggplot2. Users can specify a dilation factor to control the scale of the resizing.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+      sf,
+      ggplot2
+RoxygenNote: 7.3.2
